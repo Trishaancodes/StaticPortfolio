@@ -1,0 +1,16 @@
+:root {
+  --maxw: 980px;
+}
+
+.container-narrow {
+  max-width: var(--maxw);
+}
+
+.section-pad {
+  padding: 64px 0;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  transition: transform 120ms ease;
+}
